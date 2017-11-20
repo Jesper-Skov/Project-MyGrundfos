@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    max-width: 1900px;
+}
+
+#center {
+    text-align: center;
+    margin-top: -0.45vw;
+    margin-left: -0.45vw;
+}
+#link {
+    position: absolute;
+    margin-top: -44.7vw;
+    margin-left: 18.63vw;
+    border-top-style: solid;
+    border-width: 0.07vw;
+    border-top-color: #E0E0E0;
+    padding-right: 11vw;
+    cursor: pointer;
+}
+#link:hover {
+    background-color: white;
+}
+p {
+    margin-top: 0.4vw;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.8vw;
+    color: #707070;
+    margin-bottom: 0.4vw;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
