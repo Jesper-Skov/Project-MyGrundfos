@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/* CSS Document */
+@media only screen and (min-width: 1900px) and (max-width: 1940px) {
+body {
+	text-align: center;
+	background-color: #f5f5f5;
+}
+#background {
+	margin-top: -0.5%;
+	margin-left: -1%;
+	width: 101.4%;
+	padding-bottom: 1%;
+}
+footer img {
+	width: 101.4%;
+	margin-left: -1%;
+}
+#productlist {
+	margin-top: -45%;
+	padding-bottom: 37%;
+	margin-left: 35%;
+	padding-left: 5%;
+	width: 60%;
+}
+#productlist h1 {
+	font-family: arial;
+	background-color: #1c4a7b;
+	color: white;
+	padding-right: 70%;
+	margin-right: 14.6%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin-bottom: -0%;
+	border: 1px solid #000;
+}
+/*This is where the filtered list starts. I have used it to make the filter list on searchfunktion. It is #myInput and #myUL that I borrowed and modified to work to this website. This is the link to the original, thanks to w3school:
+https://www.w3schools.com/howto/howto_js_filter_lists.asp*/
+#myInput {;
+	background-repeat: no-repeat;
+	width: 80%;
+	font-size: 20px;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #000;
+	margin-bottom: 12px;
+	margin-right: 15%;
+}
+#myUL {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.products {
+	border: 1px solid #000;
+	margin-right: 14.6%;
+	margin-top: -1%;
+	border-top-style: none;
+}
+#alphaone {
+	width: 20%;
+	margin-left: -70%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border: 2px solid #000;
+}
+#alphatwo {
+	width: 20%;
+	margin-left: -70%;
+	margin-top: 2.3%;
+	margin-bottom: 2%;
+	border: 2px solid #000;
+}
+#alphathree {
+	width: 20%;
+	margin-left: -70%;
+	margin-top: 2.3%;
+	margin-bottom: 2%;
+	border: 2px solid #000;
+}
+#magnaone {
+	width: 20%;
+	margin-left: -70%;
+	margin-top: 2.3%;
+	margin-bottom: 2%;
+	border: 2px solid #000;
+}
+#magnathree {
+	width: 20%;
+	margin-left: -70%;
+	margin-top: 2.3%;
+	margin-bottom: 2%;
+	border: 2px solid #000;
+}
+.products h2 {
+	margin-top: -20%;
+	font-family: arial;
+	font-size: 350%;
+	padding-right: 20%;
+	color: #1c4a7c;
+	font-style: bold;
+}
+.buy {
+	border: 1px solid #000;
+	color: white;
+	background-color: #1c4a7c;
+	font-size: 200%;
+	font-family: arial;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-right: 20%;
+	margin-bottom: 4%;
+}
+.discriptions {
+	text-align: left;
+	margin-left: 60%;
+	margin-top: -20%;
+	border: 1px solid #000;
+	margin-right: 2%;
+	font-family: arial;
+	font-size: 90%;
+	margin-bottom: 2%;
+	padding-left: 1%;
+}
+#discriptionsmagnaone {
+	text-align: left;
+	margin-left: 60%;
+	margin-top: -20%;
+	border: 1px solid #000;
+	margin-right: 2%;
+	font-family: arial;
+	font-size: 90%;
+	margin-bottom: 5%;
+	padding-left: 1%;
+}
+}

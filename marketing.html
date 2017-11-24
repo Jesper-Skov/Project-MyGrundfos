@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MyGrundfos Marketing</title>
+<link rel="stylesheet" type="text/css" href="marketstyle.css">
+</head>
+
+<body>
+<img src="images/MyGrundfos Marketing background.png" alt="background" id="background"> 
+<!--This is the list that apears and can be filtered by the searchfunction.
+		https://www.w3schools.com/howto/howto_js_filter_lists.asp-->
+<div id="productlist">
+  <h1>Marketing</h1>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for your product..." title="Type in the product">
+  <ul id="myUL">
+    <li>
+      <div class="products"> <img src="images/Alpha 1.jpg" alt="Alpha 1" id="alphaone">
+        <h2>Alpha 1</h2>
+        <button class="buy">Buy</button>
+        <div class="discriptions">
+          <p>Highly flexible can be set up for any application</p>
+          <p>Backward compatible with older Grundfos circulator housings</p>
+          <p>One Touch operation enables simple set up</p>
+          <p>Power usage LED display</p>
+          <p>Plug & Pump – no need to open terminal box </p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="products"> <img src="images/Alpha 2.jpg" alt="Alpha 2" id="alphatwo">
+        <h2>Alpha 2</h2>
+        <button class="buy">Buy</button>
+        <div class="discriptions">
+          <p>Extra reliable</p>
+          <p>No blockage</p>
+          <p>No dry-running</p>
+          <p>Self-adjustable</p>
+          <p>Market-leading efficiency</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="products"> <img src="images/Alpha 3.jpg" alt="Alpha 3" id="alphathree">
+        <h2>Alpha 3</h2>
+        <button class="buy">Buy</button>
+        <div class="discriptions">
+          <p>Communicates with the ALPHA READER and the GRUNDFOS GO BALANCE app
+            for easy balancing</p>
+          <p>No blockage</p>
+          <p>No dry-running</p>
+          <p>Self-adjustable – AUTOADAPT automatically finds the best pump setting</p>
+          <p>Market-leading efficiency</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="products"> <img src="images/Magna 1.jpg" alt="Magna 1" id="magnaone">
+        <h2>Magna 1</h2>
+        <button class="buy">Buy</button>
+        <div id="discriptionsmagnaone">
+          <p>Cost-effective replacement pump</p>
+          <p>Suitable for both heating and cooling applications</p>
+          <p>Flexible pump head position</p>
+          <p>Minimal maintenance and long life</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="products"> <img src="images/Magna 3.jpg" alt="Magna 3" id="magnathree">
+        <h2>Magna 3</h2>
+        <button class="buy">Buy</button>
+        <div class="discriptions">
+          <p>Easy integration with Building Management Systems</p>
+          <p>Removes the need for a throttling valve</p>
+          <p>Communication with remote control</p>
+          <p>Best-in-class efficiency</p>
+          <p>Use FLOWLIMIT instead of installing a throttling valve</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<footer> <img src="images/MyGrundfos footer.jpg" alt="footer"> </footer>
+<script src="script.js"></script>
+</body>
+</html>
