@@ -171,4 +171,21 @@ https://www.w3schools.com/howto/howto_js_filter_lists.asp*/
     font-size: 150%;
     margin-top: -5%;
 }
+.link {
+	text-decoration: none;
+}
+.videolink {
+	margin-right: 70%;
+	margin-top: -4%;
+	margin-bottom: 1%;
+	text-decoration: none;
+	color: #1c4a7c;
+}
+.videolinktwo {
+	margin-right: 70%;
+	margin-top: -2%;
+	margin-bottom: 1%;
+	text-decoration: none;
+	color: #1c4a7c;
+}
 }
